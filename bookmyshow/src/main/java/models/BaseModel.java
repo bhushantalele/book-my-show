@@ -20,7 +20,7 @@ public class BaseModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;  //PrimaryKey
-    
+
     private Date createdAt;
     private Date lastModifiedAt;
 }
